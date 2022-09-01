@@ -11,11 +11,14 @@
     <div class="center base-flex">
 
         <h1><span class="side">[ClIENT & SERVER-SIDE]</span> Create a new payment</h1>
-        <span>New generic payment.</span>
+        <span>New recurrence subscription.</span>
 
         <form action="/service/payments-new.php" method="POST">
             
             <input type="text" name="customer" placeholder="Customer ID" />
+            <input type="text" name="price" placeholder="Price ID" />
+            <input type="text" name="cancel_url" placeholder="Cancel URL" />
+            <input type="text" name="success_url" placeholder="Success URL" />
             <input type="text" name="description" placeholder="Payment Description" />
 
             <button type="submit">Create (and go to the 2nd step)</button>

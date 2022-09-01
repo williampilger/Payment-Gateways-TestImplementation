@@ -21,10 +21,12 @@
             <a href="page_customers-list.php">List all Customers</a>
         </div>
         <div class="center group base-flex">
-            <h2>Payments</h2>
+            <h2>Session Payment</h2>
             <a href="page_payments-new.php">New payment</a>
-            <a href="page_payments-refund.php">Refund payment</a>
+            <a href="page_payments-refund.php"># Refund payment</a>
         </div>
+        <span># - Still not implemented.</span><br>
+        <span>@ - Still not functional</span>
     </div>
 
 </body>

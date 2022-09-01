@@ -3,33 +3,25 @@
     require_once __DIR__.'/../_local/tools.php';
     require_once AUTO_LOAD;
     
-    $params = getParams(['customer', 'description', 'confirm']);
-    $params['confirm'] = isset($params['confirm']);
+    $customer = $_POST['customer'];
+    $price = $_POST['price'];
+    $cancel_url = $_POST['cancel_url'];
+    $success_url = $_POST['success_url'];
 
     $stripe = new \Stripe\StripeClient(Stripe_credentials['private_key']);
 
-    $payment = $stripe->setupIntents->create( $params );
+    $r = $stripe->checkout->sessions->create([
+        'success_url' => $success_url,
+        'cancel_url' => $cancel_url,
+        'line_items' => [
+            [
+                'price' => $price,
+                'quantity' => 1,
+            ],
+        ],
+        'mode' => 'subscription',
+        'customer' => $customer
+    ]);
 
+    echo json_encode(objectAdvPrint($r));
 ?>
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FRONT - Generic Checkout</title>
-    <script src="https://js.stripe.com/v3/"></script>
-</head>
-<body>
-    
-    <script>
-        var stripe = Stripe('<?php echo Stripe_credentials['public_key']; ?>');
-        var elements = stripe.elements({
-            clientSecret: '<?php echo $payment->client_secret ?>',
-        });
-        elements.update({locale: 'fr'});
-
-    </script>
-</body>
-</html>
