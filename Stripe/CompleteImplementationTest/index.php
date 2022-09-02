@@ -21,9 +21,19 @@
             <a href="page_customers-list.php">List all Customers</a>
         </div>
         <div class="center group base-flex">
-            <h2>Session Payment</h2>
-            <a href="page_payments-new.php">New payment</a>
-            <a href="page_payments-refund.php"># Refund payment</a>
+            <h2>Payment Sessions</h2>
+            <a href="page_session-new.php">New Session</a>
+            <a href="page_session-retrieve.php">Retrieve Session</a>
+        </div>
+        <div class="center group base-flex">
+            <h2>PaymentIntents</h2>
+            <a href="page_payment-new.php">#New PaymentIntent</a>
+            <a href="page_payment-retrieve.php">Retrieve PaymentIntent</a>
+        </div>
+        <div class="center group base-flex">
+            <h2>Subscriptions</h2>
+            <a href="page_subscription-new.php">#New Subscription</a>
+            <a href="page_subscription-retrieve.php">Retrieve Subscription</a>
         </div>
         <span># - Still not implemented.</span><br>
         <span>@ - Still not functional</span>
