@@ -63,5 +63,118 @@
             "amount_tax": 0
         },
         "url": "https://checkout.stripe.com/pay/cs_test_a1Drl6XEczcq8aJtAJZkwCJaJu9EODfRvbGKGBoKfkVD2gnqyhF5sPFqb6#fidkdWxOYHwnPyd1blpxYHZxWjA0SWYydWtDQ0pOcVEyYjF1ZzNPQG9AaVZEblx3PHVvYF1TTWhOcn9MfHVcNTJRMmlgT0h%2FcF1IPUx9Y1xwNGJpd2EwbkA8Z2Q1PEdVcUdUc25sY2BLMTNBNTVhb2NmUkh3SCcpJ2N3amhWYHdzYHcnP3F3cGApJ2lkfGpwcVF8dWAnPyd2bGtiaWBabHFgaCcpJ2BrZGdpYFVpZGZgbWppYWB3dic%2FcXdwYHgl"
+    },
+    {
+        "description": "O objeto abaixo foi recebido pelo servidor no momento do pagamento",
+        "objeto_notificação": {
+            "id": "evt_3LeiYkFFOKtT7g4p03VY2jbU",
+            "object": "event",
+            "api_version": "2022-08-01",
+            "created": "1662396848",
+            "data": {
+                "object": {
+                    "id": "ch_3LeiYkFFOKtT7g4p00dXBpBv",
+                    "object": "charge",
+                    "amount": "1490",
+                    "amount_captured": "1490",
+                    "amount_refunded": "0",
+                    "application": "",
+                    "application_fee": "",
+                    "application_fee_amount": "",
+                    "balance_transaction": "txn_3LeiYkFFOKtT7g4p072VHzuY",
+                    "billing_details": {
+                        "address": {
+                            "city": "",
+                            "country": "BR",
+                            "line1": "",
+                            "line2": "",
+                            "postal_code": "",
+                            "state": ""
+                        },
+                        "email": "william@authenty.com.br",
+                        "name": "William Pilger",
+                        "phone": ""
+                    },
+                    "calculated_statement_descriptor": "AUTH FLEXAO PRO",
+                    "captured": "1",
+                    "created": "1662396847",
+                    "currency": "brl",
+                    "customer": "cus_MLGR7JMVTDek1e",
+                    "description": "Subscription creation",
+                    "destination": "",
+                    "dispute": "",
+                    "disputed": "",
+                    "failure_balance_transaction": "",
+                    "failure_code": "",
+                    "failure_message": "",
+                    "fraud_details": [],
+                    "invoice": "in_1LeiYkFFOKtT7g4pzdNMBAnK",
+                    "livemode": "",
+                    "metadata": [],
+                    "on_behalf_of": "",
+                    "order": "",
+                    "outcome": {
+                        "network_status": "approved_by_network",
+                        "reason": "",
+                        "risk_level": "normal",
+                        "risk_score": "27",
+                        "seller_message": "Payment complete.",
+                        "type": "authorized"
+                    },
+                    "paid": "1",
+                    "payment_intent": "pi_3LeiYkFFOKtT7g4p0HsnJmn1",
+                    "payment_method": "pm_1LcZudFFOKtT7g4pJFMQvnmy",
+                    "payment_method_details": {
+                        "card": {
+                            "brand": "visa",
+                            "checks": {
+                                "address_line1_check": "",
+                                "address_postal_code_check": "",
+                                "cvc_check": ""
+                            },
+                            "country": "US",
+                            "exp_month": "11",
+                            "exp_year": "2025",
+                            "fingerprint": "T2UILbruzK2jV2a0",
+                            "funding": "credit",
+                            "installments": "",
+                            "last4": "4242",
+                            "mandate": "",
+                            "network": "visa",
+                            "three_d_secure": "",
+                            "wallet": ""
+                        },
+                        "type": "card"
+                    },
+                    "receipt_email": "",
+                    "receipt_number": "",
+                    "receipt_url": "https:\/\/pay.stripe.com\/receipts\/invoices\/CAcaFwoVYWNjdF8xTGM3cG5GRk9LdFQ3ZzRwKLHT2JgGMgYhBctNnps6LBZFO6t3CsW4zwO-Ijq8IGdY3a8UJQ_muT_nGQuZ-ib1XMZcfEOX1QIW24Bp?s=ap",
+                    "refunded": "",
+                    "refunds": {
+                        "object": "list",
+                        "data": [],
+                        "has_more": "",
+                        "total_count": "0",
+                        "url": "\/v1\/charges\/ch_3LeiYkFFOKtT7g4p00dXBpBv\/refunds"
+                    },
+                    "review": "",
+                    "shipping": "",
+                    "source": "",
+                    "source_transfer": "",
+                    "statement_descriptor": "AUTH FLEXAO PRO",
+                    "statement_descriptor_suffix": "",
+                    "status": "succeeded",
+                    "transfer_data": "",
+                    "transfer_group": ""
+                }
+            },
+            "livemode": "",
+            "pending_webhooks": "1",
+            "request": {
+                "id": "req_WYUSJlrW7wBh2q",
+                "idempotency_key": "78eda30b-6b5b-473b-babf-49665f992a93"
+            },
+            "type": "charge.succeeded"
+        }
     }
 ]

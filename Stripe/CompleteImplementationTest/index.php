@@ -40,6 +40,11 @@
             <!-- <a href="page_invoice-new.php">New Invoice</a> -->
             <a href="page_invoice-retrieve.php">Retrieve Invoice</a>
         </div>
+        <div class="center group base-flex">
+            <h2>Charges</h2>
+            <!-- <a href="page_charge-new.php">New Charge</a> -->
+            <a href="page_charge-retrieve.php">Retrieve Charge</a>
+        </div>
     </div>
 
 </body>
