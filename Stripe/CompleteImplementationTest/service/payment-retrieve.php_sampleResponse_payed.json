@@ -1,0 +1,160 @@
+[
+    {
+        "descrição": "Este JSON é apenas um EXEMPLO. O objeto abaixo é um retorno real da requisição na condição especificada abaixo.",
+        "condição": "Pagamento realizado/aprovado."
+    },
+    {
+        "id": "pi_3LedcVFFOKtT7g4p1fXjbduM",
+        "object": "payment_intent",
+        "amount": 5635,
+        "amount_capturable": 0,
+        "amount_details": {
+            "tip": []
+        },
+        "amount_received": 5635,
+        "application": null,
+        "application_fee_amount": null,
+        "automatic_payment_methods": null,
+        "canceled_at": null,
+        "cancellation_reason": null,
+        "capture_method": "automatic",
+        "charges": {
+            "object": "list",
+            "data": [
+                {
+                    "id": "ch_3LedcVFFOKtT7g4p1S486te1",
+                    "object": "charge",
+                    "amount": 5635,
+                    "amount_captured": 5635,
+                    "amount_refunded": 0,
+                    "application": null,
+                    "application_fee": null,
+                    "application_fee_amount": null,
+                    "balance_transaction": "txn_3LedcVFFOKtT7g4p1zBqRqXv",
+                    "billing_details": {
+                        "address": {
+                            "city": null,
+                            "country": "BR",
+                            "line1": null,
+                            "line2": null,
+                            "postal_code": null,
+                            "state": null
+                        },
+                        "email": "william@authenty.com.br",
+                        "name": "William Pilger",
+                        "phone": null
+                    },
+                    "calculated_statement_descriptor": "AUTHENTY STORE",
+                    "captured": true,
+                    "created": 1662377860,
+                    "currency": "brl",
+                    "customer": "cus_MLGR7JMVTDek1e",
+                    "description": null,
+                    "destination": null,
+                    "dispute": null,
+                    "disputed": false,
+                    "failure_balance_transaction": null,
+                    "failure_code": null,
+                    "failure_message": null,
+                    "fraud_details": [],
+                    "invoice": null,
+                    "livemode": false,
+                    "metadata": [],
+                    "on_behalf_of": null,
+                    "order": null,
+                    "outcome": {
+                        "network_status": "approved_by_network",
+                        "reason": null,
+                        "risk_level": "normal",
+                        "risk_score": 4,
+                        "seller_message": "Payment complete.",
+                        "type": "authorized"
+                    },
+                    "paid": true,
+                    "payment_intent": "pi_3LedcVFFOKtT7g4p1fXjbduM",
+                    "payment_method": "pm_1LcZudFFOKtT7g4pJFMQvnmy",
+                    "payment_method_details": {
+                        "card": {
+                            "brand": "visa",
+                            "checks": {
+                                "address_line1_check": null,
+                                "address_postal_code_check": null,
+                                "cvc_check": null
+                            },
+                            "country": "US",
+                            "exp_month": 11,
+                            "exp_year": 2025,
+                            "fingerprint": "T2UILbruzK2jV2a0",
+                            "funding": "credit",
+                            "installments": null,
+                            "last4": "4242",
+                            "mandate": null,
+                            "network": "visa",
+                            "three_d_secure": null,
+                            "wallet": null
+                        },
+                        "type": "card"
+                    },
+                    "receipt_email": null,
+                    "receipt_number": null,
+                    "receipt_url": "https://pay.stripe.com/receipts/payment/CAcaFwoVYWNjdF8xTGM3cG5GRk9LdFQ3ZzRwKPnM15gGMgafeacRlZU6LBbOqtdM7i75ZrtA1Gdz30UU_yB7q95bURxfVXpoTPfYyMeSz3_XoPW3-liZ",
+                    "refunded": false,
+                    "refunds": {
+                        "object": "list",
+                        "data": [],
+                        "has_more": false,
+                        "total_count": 0,
+                        "url": "/v1/charges/ch_3LedcVFFOKtT7g4p1S486te1/refunds"
+                    },
+                    "review": null,
+                    "shipping": null,
+                    "source": null,
+                    "source_transfer": null,
+                    "statement_descriptor": null,
+                    "statement_descriptor_suffix": null,
+                    "status": "succeeded",
+                    "transfer_data": null,
+                    "transfer_group": null
+                }
+            ],
+            "has_more": false,
+            "total_count": 1,
+            "url": "/v1/charges?payment_intent=pi_3LedcVFFOKtT7g4p1fXjbduM"
+        },
+        "client_secret": "pi_3LedcVFFOKtT7g4p1fXjbduM_secret_AU0DM7gnnRN4CpFQVlWdDvivY",
+        "confirmation_method": "automatic",
+        "created": 1662377859,
+        "currency": "brl",
+        "customer": "cus_MLGR7JMVTDek1e",
+        "description": null,
+        "invoice": null,
+        "last_payment_error": null,
+        "livemode": false,
+        "metadata": [],
+        "next_action": null,
+        "on_behalf_of": null,
+        "payment_method": "pm_1LcZudFFOKtT7g4pJFMQvnmy",
+        "payment_method_options": {
+            "card": {
+                "installments": null,
+                "mandate_options": null,
+                "network": null,
+                "request_three_d_secure": "automatic"
+            }
+        },
+        "payment_method_types": [
+            "card"
+        ],
+        "processing": null,
+        "receipt_email": null,
+        "review": null,
+        "setup_future_usage": null,
+        "shipping": null,
+        "source": null,
+        "statement_descriptor": null,
+        "statement_descriptor_suffix": null,
+        "status": "succeeded",
+        "transfer_data": null,
+        "transfer_group": null
+    }
+]

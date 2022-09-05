@@ -20,6 +20,11 @@
             <input type="text" name="cancel_url" placeholder="Cancel URL" />
             <input type="text" name="success_url" placeholder="Success URL" />
 
+            <div>
+                <label for="recurrent">Recurrent Payment (It's a Subscription)</label>
+                <input type="checkbox" id="recurrent" name="recurrent">
+            </div>
+
             <button type="submit">Create</button>
         </form>
 

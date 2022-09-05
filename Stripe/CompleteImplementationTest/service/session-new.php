@@ -7,6 +7,7 @@
     $price = $_POST['price'];
     $cancel_url = $_POST['cancel_url'];
     $success_url = $_POST['success_url'];
+    $mode = isset($_POST['recurrent']) ? 'subscription' : 'payment';
 
     $stripe = new \Stripe\StripeClient(Stripe_credentials['private_key']);
 
@@ -19,7 +20,7 @@
                 'quantity' => 1,
             ],
         ],
-        'mode' => 'subscription',
+        'mode' => $mode,
         'customer' => $customer
     ]);
 

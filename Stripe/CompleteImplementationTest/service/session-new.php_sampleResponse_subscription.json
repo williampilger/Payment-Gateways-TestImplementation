@@ -1,0 +1,67 @@
+[
+    {
+        "descrição": "Este JSON é apenas um EXEMPLO. O objeto abaixo é um retorno real da requisição na condição especificada abaixo.",
+        "condição": "Nova session para assinatura."
+    },
+    {
+        "id": "cs_test_a1Drl6XEczcq8aJtAJZkwCJaJu9EODfRvbGKGBoKfkVD2gnqyhF5sPFqb6",
+        "object": "checkout.session",
+        "after_expiration": null,
+        "allow_promotion_codes": null,
+        "amount_subtotal": 1990,
+        "amount_total": 1990,
+        "automatic_tax": {
+            "enabled": false,
+            "status": null
+        },
+        "billing_address_collection": null,
+        "cancel_url": "https://authenty.com.br",
+        "client_reference_id": null,
+        "consent": null,
+        "consent_collection": null,
+        "currency": "brl",
+        "customer": "cus_MLGR7JMVTDek1e",
+        "customer_creation": null,
+        "customer_details": {
+            "address": null,
+            "email": "william@authenty.com.br",
+            "name": null,
+            "phone": null,
+            "tax_exempt": null,
+            "tax_ids": null
+        },
+        "customer_email": null,
+        "expires_at": 1662464630,
+        "livemode": false,
+        "locale": null,
+        "metadata": [],
+        "mode": "subscription",
+        "payment_intent": null,
+        "payment_link": null,
+        "payment_method_collection": "always",
+        "payment_method_options": null,
+        "payment_method_types": [
+            "card"
+        ],
+        "payment_status": "unpaid",
+        "phone_number_collection": {
+            "enabled": false
+        },
+        "recovered_from": null,
+        "setup_intent": null,
+        "shipping_address_collection": null,
+        "shipping_cost": null,
+        "shipping_details": null,
+        "shipping_options": [],
+        "status": "open",
+        "submit_type": null,
+        "subscription": null,
+        "success_url": "https://authenty.com.br",
+        "total_details": {
+            "amount_discount": 0,
+            "amount_shipping": 0,
+            "amount_tax": 0
+        },
+        "url": "https://checkout.stripe.com/pay/cs_test_a1Drl6XEczcq8aJtAJZkwCJaJu9EODfRvbGKGBoKfkVD2gnqyhF5sPFqb6#fidkdWxOYHwnPyd1blpxYHZxWjA0SWYydWtDQ0pOcVEyYjF1ZzNPQG9AaVZEblx3PHVvYF1TTWhOcn9MfHVcNTJRMmlgT0h%2FcF1IPUx9Y1xwNGJpd2EwbkA8Z2Q1PEdVcUdUc25sY2BLMTNBNTVhb2NmUkh3SCcpJ2N3amhWYHdzYHcnP3F3cGApJ2lkfGpwcVF8dWAnPyd2bGtiaWBabHFgaCcpJ2BrZGdpYFVpZGZgbWppYWB3dic%2FcXdwYHgl"
+    }
+]

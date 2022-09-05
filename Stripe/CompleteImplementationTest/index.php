@@ -27,16 +27,19 @@
         </div>
         <div class="center group base-flex">
             <h2>PaymentIntents</h2>
-            <a href="page_payment-new.php">#New PaymentIntent</a>
+            <!-- <a href="page_payment-new.php">New PaymentIntent</a> -->
             <a href="page_payment-retrieve.php">Retrieve PaymentIntent</a>
         </div>
         <div class="center group base-flex">
             <h2>Subscriptions</h2>
-            <a href="page_subscription-new.php">#New Subscription</a>
+            <!-- <a href="page_subscription-new.php">New Subscription</a> -->
             <a href="page_subscription-retrieve.php">Retrieve Subscription</a>
         </div>
-        <span># - Still not implemented.</span><br>
-        <span>@ - Still not functional</span>
+        <div class="center group base-flex">
+            <h2>Invoices</h2>
+            <!-- <a href="page_invoice-new.php">New Invoice</a> -->
+            <a href="page_invoice-retrieve.php">Retrieve Invoice</a>
+        </div>
     </div>
 
 </body>

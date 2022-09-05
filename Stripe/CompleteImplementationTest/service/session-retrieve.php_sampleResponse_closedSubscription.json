@@ -1,0 +1,74 @@
+[
+    {
+        "descrição": "Este JSON é apenas um EXEMPLO. O objeto abaixo é um retorno real da requisição na condição especificada abaixo.",
+        "condição": "Session encerrada. Criada e paga até o momento da reconsulta."
+    },
+    {
+        "id": "cs_test_a1PcUlz5tsWVbikpIXr8SiWkD8sElvmsx9OkhvidF0AGCitFQkGbHqrRDx",
+        "object": "checkout.session",
+        "after_expiration": null,
+        "allow_promotion_codes": null,
+        "amount_subtotal": 1990,
+        "amount_total": 1990,
+        "automatic_tax": {
+            "enabled": false,
+            "status": null
+        },
+        "billing_address_collection": null,
+        "cancel_url": "https://authenty.com.br",
+        "client_reference_id": null,
+        "consent": null,
+        "consent_collection": null,
+        "currency": "brl",
+        "customer": "cus_MLGR7JMVTDek1e",
+        "customer_creation": null,
+        "customer_details": {
+            "address": {
+                "city": null,
+                "country": "BR",
+                "line1": null,
+                "line2": null,
+                "postal_code": null,
+                "state": null
+            },
+            "email": "william@authenty.com.br",
+            "name": "William Pilger",
+            "phone": null,
+            "tax_exempt": "none",
+            "tax_ids": []
+        },
+        "customer_email": null,
+        "expires_at": 1662462632,
+        "livemode": false,
+        "locale": null,
+        "metadata": [],
+        "mode": "subscription",
+        "payment_intent": null,
+        "payment_link": null,
+        "payment_method_collection": "always",
+        "payment_method_options": null,
+        "payment_method_types": [
+            "card"
+        ],
+        "payment_status": "paid",
+        "phone_number_collection": {
+            "enabled": false
+        },
+        "recovered_from": null,
+        "setup_intent": null,
+        "shipping_address_collection": null,
+        "shipping_cost": null,
+        "shipping_details": null,
+        "shipping_options": [],
+        "status": "complete",
+        "submit_type": null,
+        "subscription": "sub_1LedJpFFOKtT7g4pQTAVAVm5",
+        "success_url": "https://authenty.com.br",
+        "total_details": {
+            "amount_discount": 0,
+            "amount_shipping": 0,
+            "amount_tax": 0
+        },
+        "url": null
+    }
+]
