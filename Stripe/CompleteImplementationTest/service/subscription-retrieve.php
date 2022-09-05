@@ -12,5 +12,13 @@
         [ ]
     );
 
+    //Sample to get the full Amount
+    // $amount = 0;
+    // foreach($r->items->data as $data)
+    // {
+    //     $amount += $data->plan->amount;
+    // }
+    // echo $amount;
+
     echo json_encode(objectAdvPrint($r));
 ?>
